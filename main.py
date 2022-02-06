@@ -1,4 +1,4 @@
-from unittest import result
+
 
 
 print("===================================================")
@@ -24,6 +24,12 @@ while continua:
     x=int(x)
     y=int(y)
     risultato=0
+    
+    #By NorbyVevo
+    """ if segno in list('+-*/'):
+        risultato=eval(str(x)+segno+str(y)) """
+        
+
     if segno=="+":
         risultato=x+y
     if segno=="-":
@@ -38,5 +44,8 @@ while continua:
     continua=(input("Vuoi continuare? [y]"))=="y"
 
 print("Chiusura in corso")
+
+
+
 
 
